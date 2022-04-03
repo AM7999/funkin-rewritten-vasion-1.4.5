@@ -38,7 +38,7 @@ return {
 		enemy.x, enemy.y = -380, -110
 		boyfriend.x, boyfriend.y = 260, 100
 
-		enemyIcon:animate("daddy dearest", false)
+		enemyIcon:animate("mommy mearest", false)
 
 		self:load()
 	end,
@@ -68,12 +68,12 @@ return {
 		end
 
 		if health >= 80 then
-			if enemyIcon:getAnimName() == "daddy dearest" then
-				enemyIcon:animate("daddy dearest losing", false)
+			if enemyIcon:getAnimName() == "mommy mearest" then
+				enemyIcon:animate("mommy mearest losing", false)
 			end
 		else
-			if enemyIcon:getAnimName() == "daddy dearest losing" then
-				enemyIcon:animate("daddy dearest", false)
+			if enemyIcon:getAnimName() == "mommy mearest losing" then
+				enemyIcon:animate("mommy mearest", false)
 			end
 		end
 
