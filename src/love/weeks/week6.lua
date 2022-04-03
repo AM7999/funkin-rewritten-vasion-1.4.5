@@ -38,7 +38,7 @@ return {
 		enemy.x, enemy.y = -380, -110
 		boyfriend.x, boyfriend.y = 260, 100
 
-		enemyIcon:animate("daddy dearest", false)
+		enemyIcon:animate("senpai", false)
 
 		self:load()
 	end,
@@ -119,6 +119,7 @@ return {
 
 		love.graphics.draw(video, 0, 0)
 				weeks:drawUI()
+				weeks:drawHealthBar()
 	end,
 
 	leave = function(self)
