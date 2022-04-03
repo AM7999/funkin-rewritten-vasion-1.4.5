@@ -68,12 +68,12 @@ return {
 		end
 
 		if health >= 80 then
-			if enemyIcon:getAnimName() == "daddy dearest" then
-				enemyIcon:animate("daddy dearest losing", false)
+			if enemyIcon:getAnimName() == "senpai" then
+				enemyIcon:animate("spirit", false)
 			end
 		else
-			if enemyIcon:getAnimName() == "daddy dearest losing" then
-				enemyIcon:animate("daddy dearest", false)
+			if enemyIcon:getAnimName() == "spirit" then
+				enemyIcon:animate("senpai", false)
 			end
 		end
 
