@@ -28,7 +28,7 @@ return {
 		song = songNum
 		difficulty = songAppend
 
-		healthBarColorEnemy = {100,100,100}
+		healthBarColorEnemy = {255,255,255}
 
 		video = love.graphics.newVideo("videos/mekatsune/mekatsune.ogv") 
 
