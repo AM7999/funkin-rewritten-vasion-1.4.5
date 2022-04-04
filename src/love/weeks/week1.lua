@@ -38,7 +38,7 @@ return {
 		enemy.x, enemy.y = -380, -110
 		boyfriend.x, boyfriend.y = 260, 100
 
-		enemyIcon:animate("daddy dearest", false)
+		enemyIcon:animate("girlfriend", false)
 
 		self:load()
 	end,
