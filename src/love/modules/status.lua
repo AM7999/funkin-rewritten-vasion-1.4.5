@@ -40,7 +40,7 @@ return {
 		local debugStr
 
 		if type == "detailed" then
-			debugStr = "FPS: " .. tostring(love.timer.getFPS()) ..
+			debugStr = "how many frames a seccond your getting (if this is lower than 50fps then your pc must really be trash): " .. tostring(love.timer.getFPS()) ..
 			"\nLUA MEM USAGE (KB): " .. tostring(math.floor(collectgarbage("count"))) ..
 			"\nGRAPHICS MEM USAGE (MB): " .. tostring(math.floor(love.graphics.getStats().texturememory / 1048576)) ..
 
@@ -50,7 +50,7 @@ return {
 			"\n\nmusicTime: " .. tostring(math.floor(musicTime)) ..  -- Floored for readability
 			"\nhealth: " .. tostring(health)
 		else
-			debugStr = "FPS: " .. tostring(love.timer.getFPS())
+			debugStr = "how many frames a seccond your getting (if this is lower than 50fps then your pc must really be trash): " .. tostring(love.timer.getFPS())
 		end
 
 		return debugStr
