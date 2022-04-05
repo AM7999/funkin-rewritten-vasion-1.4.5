@@ -28,7 +28,7 @@ return {
 		song = songNum
 		difficulty = songAppend
 
-		healthBarColorEnemy = {69.4,100,60.8}
+		healthBarColorEnemy = {69,127,60}
 
 		video = love.graphics.newVideo("videos/pokemoan/pokemoan.ogv") 
 
