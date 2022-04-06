@@ -105,21 +105,7 @@ switch: lovefile
 	@rm -f build/release/funkin-vasion-rewritten-switch.zip
 	@cd build/switch; zip -9 -r ../release/funkin-vasion-rewritten-switch.zip .
 
-iOS: lovefile
-	@rm build/iOS
-	@mkdir -p "build/iOS/Friday Night Funkin' Rewritten.app"
-    
-	@cp resources/iOS/_CodeSignature
-	@cp resources/iOS/Assets.car
-	@cp resources/iOS/embedded.mobileprovision
-	@cp resources/iOS/Info.plist
-	@cp resources/iOS/'iOS AppIcon29x29@2x.png'
-	@cp resources/iOS/''
-	@cp resources/iOS/''
-	@cp resources/iOS/love
-	@cp resources/iOS/'Launch Screen.nib'
-	
-	
+
 
 clean:
 	@rm -rf build
