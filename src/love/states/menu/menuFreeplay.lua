@@ -37,60 +37,48 @@ local menuNames = {
 }
 
 local weekMeta = { -- Add/remove weeks here
-	{
-		"Tutorial",
-		{
-			"Tutorial"
-		}
-	},
-	{
-		"Week 1",
-		{
-			"Bopeebo",
-			"Fresh",
-			"Dadbattle"
-		}
-	},
-	{
-		"Week 2",
-		{
-			"Spookeez",
-			"South",
-			"Monster"
-		}
-	},
-	{
-		"Week 3",
-		{
-			"Pico",
-			"Philly Nice",
-			"Blammed"
-		}
-	},
-	{
-		"Week 4",
-		{
-			"Satin Panties",
-			"High",
-			"M.I.L.F"
-		}
-	},
-	{
-		"Week 5",
-		{
-			"Cocoa",
-			"Eggnog",
-			"Winter Horrorland"
-		}
-	},
-	{
-		"Week 6",
-		{
-			"Senpai",
-			"Roses",
-			"Thorns"
-		}
-	}
+    {
+        "Tutorial",
+        {
+            "Tutorial"
+        }
+    },
+    {
+        "Week 1",
+        {
+            "FNFGF"
+        }
+    },
+    {
+        "Week 2",
+        {
+            "FNFDD"
+        }
+    },
+    {
+        "Week 3",
+        {
+            "FNFBF"
+        }
+    },
+    {
+        "Week 4",
+        {
+            "Mekatsuna"
+        }
+    },
+    {
+        "Week 5",
+        {
+            "Unstoppable"
+        }
+    },
+    {
+        "Week 6",
+        {
+            "Pokemoan"
+        }
+    }
 }
 local difficultyStrs = {
 	"-easy",
